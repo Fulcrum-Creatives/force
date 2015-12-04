@@ -1,0 +1,83 @@
+/*---------------------------------------------------------
+ * Colors
+---------------------------------------------------------*/
+.text__white {
+  color: #fff;
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.text__fc-yellow {
+  color: $fc_yellow;
+  a {
+    color: $fc_yellow;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    &:hover {
+      transition: color 0.4s ease;
+      color: $fc_yellow_hover;
+    }
+  }
+}
+.text__yellow {
+  color: $yellow;
+  a {
+    color: $yellow;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    &:hover {
+      color: $yellow_hover;
+      transition: color 0.4s ease;
+    }
+  }
+}
+.text__green {
+  color: $green;
+  a {
+    color: $green;
+    text-decoration: none;
+    transition: color 0.4s ease;
+    &:hover {
+      color: $green_hover;
+      transition: color 0.4s ease;
+    }
+  }
+}
+.bg__yellow {
+  color: #fff;
+  padding: 0.5em 0;
+  background-color: $yellow;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  &:hover {
+    transition: color 0.4s ease, background-color 0.4s ease;
+    background-color: #000;
+    color: #fff;
+  }
+  &.no-link {
+     &:hover {
+      background-color: $yellow;
+      color: #fff;
+    }
+  }
+}
+.bg__green {
+  color: #fff;
+  padding: 0.5em 0;
+  background-color: $green;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  &:hover {
+    transition: color 0.4s ease, background-color 0.4s ease;
+    background-color: #000;
+    color: #fff;
+  }
+  &.no-link {
+     &:hover {
+      background-color: $green;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/*---------------------------------------------------------
+ * Logo
+---------------------------------------------------------*/
+.header__logo {
+  width: 260px;
+  height: 56px;
+  position: relative;
+  top: -3px;
+  float: none;
+  margin: 0 auto;
+  @include media-query(480px) {
+    float: left;
+    margin: 0;
+  }
+  picture,
+  a {
+    width: 260px;
+    height: 56px;
+  }
+}

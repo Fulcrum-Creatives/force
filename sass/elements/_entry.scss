@@ -1,0 +1,107 @@
+/*---------------------------------------------------------
+ * Entries
+---------------------------------------------------------*/
+.entry__title {
+  line-height: 0.9em;
+  color: #000;
+  margin: 42px 0 0;
+  @include font-size(39);
+  @include media-query(480px) {
+    margin: 130px 0 0;
+    @include font-size(60);
+  }
+  @include media-query(600px) {
+    @include font-size(80);
+  }
+  @include media-query(837px) {
+    @include font-size(100);
+  }
+  @include media-query(837px) {
+    @include font-size(115);
+  }
+}
+.entry__title-sub {
+  margin: 40px 0 0;
+  color: #000;
+  @include font-size(20);
+  @include media-query(480px) {
+    @include font-size(26);
+  }
+}
+.entry__title,
+.entry__title-sub {
+  text-align: center;
+}
+.entry__body {
+  max-width: 875px;
+  margin: 16px auto 16px;
+  @include media-query(480px) {
+    margin: 85px auto 95px;
+  }
+  p {
+    line-height: 1.7em;
+    margin-bottom: 2em;
+    word-spacing: 0.1em;
+    @include font-size(18);
+    @include media-query(480px) {
+      @include font-size(26);
+      line-height: 2em;
+      word-spacing: 0;
+    }
+    a {
+      text-decoration: underline;
+      font-weight: bold;
+      color: $color__font;
+    }
+  }
+  &.forms {
+    width: 100%;
+    max-width: none;
+    margin: 85px auto 0;
+    padding-bottom: 1em;
+  }
+}
+.divider {
+  width: 100%;
+  margin: 0 0 22px;
+  text-align: center;
+  text-transform: uppercase;
+  @include font-size(21);
+  @include media-query(480px) {
+    @include font-size(25);
+  }
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+  }
+}
+.entry__body {
+  h2 {
+    line-height: 1.3em;
+    margin-bottom: 2em;
+    color: #000;
+    word-spacing: 0.1em;
+    @include font-size(24);
+    @include media-query(480px) {
+      line-height: 1.5em;
+      @include font-size(36);
+      word-spacing: 0;
+    }
+  }
+  h3 {
+    line-height: 1.3em;
+    margin-bottom: 2em;
+    word-spacing: 0.1em;
+    @include font-size(19);
+    @include media-query(480px) {
+      line-height: 1.5em;
+      @include font-size(29);
+      word-spacing: 0;
+    }
+  }
+}

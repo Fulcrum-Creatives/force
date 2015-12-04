@@ -1,0 +1,56 @@
+/*---------------------------------------------------------
+ * Fonts
+---------------------------------------------------------*/
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/sourcesanspro/sourcesanspro-bold-webfont.eot');
+    src: url('fonts/sourcesanspro/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'font-icons';
+    src: url('fonts/icons/force-icons.eot');
+    src: url('fonts/icons/force-icons.eot?#iefix') format('embedded-opentype'),
+         url('fonts/icons/force-icons.woff2') format('woff2'),
+         url('fonts/icons/force-icons.woff') format('woff'),
+         url('fonts/icons/force-icons.ttf') format('truetype'),
+         url('fonts/icons/force-icons.svg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.avenir-heavy {
+  font-family: "AvenirNextLTW01-Heavy";
+}
+.avenir-bold {
+  font-family: "Avenir Next LT W01 Bold";
+}
+.avenir-demi-italic {
+  font-family: "AvenirNextLTW01-DemiIta";
+}
+.sans-bold {
+  font-family: 'source_sans_probold';
+}
+.sans-regular {
+  font-family: 'source_sans_proregular';
+}
+.font-icons {
+  font-family: 'font-icons';
+}
