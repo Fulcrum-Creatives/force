@@ -81,3 +81,29 @@
     }
   }
 }
+.bg__grey {
+  color: #fff;
+  padding: 0.5em 0;
+  background-color: #231f20;
+  transition: color 0.4s ease, background-color 0.4s ease;
+  &:hover {
+    transition: color 0.4s ease, background-color 0.4s ease;
+    background-color: #000;
+    color: #fff;
+  }
+  &.no-link {
+     &:hover {
+      background-color: #231f20;
+      color: #fff;
+    }
+  }
+}
+.wrapper__home {
+  background-color: #fff;
+}
+.wrapper__client {
+  background-color: $green;
+}
+.wrapper__intern {
+  background-color: $yellow;
+}

@@ -16,9 +16,9 @@ $force_b_corp_link    = fcwp_get_field( 'force_b_corp_link', true );
   <div class="inner">
   	<div class="col__1-3 company__info">
       <p>
-        <span class="uppercase text__white"><?php _e( 'An inititive of', 'fcwp' ); ?></span><br />
+        <span class="uppercase text__white"><?php _e( 'An Initiative of', 'fcwp' ); ?></span><br />
         <span class="uppercase text__fc-yellow ">
-          <a href="http://fulcrumcreatives.com"><?php _e( 'FUlcrum Creatives', 'fcwp' ); ?></a>
+          <a href="http://fulcrumcreatives.com"><?php _e( 'Fulcrum Creatives', 'fcwp' ); ?></a>
         </span>
       </p>
       <div class="footer__social text__fc-yellow ">

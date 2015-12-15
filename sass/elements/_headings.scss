@@ -37,3 +37,11 @@ h5 {
 h6 {
   @include font-size( $h6-font-size );
 }
+.header__bg {
+  max-width: 750px;
+  margin: 0 auto;
+  background-image: url(images/header-bg.png);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}

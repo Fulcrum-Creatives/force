@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/force
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Framework
-Version: 0.0.1
+Version: 1.0.0
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -482,6 +482,15 @@ h6 {
   font-size: 0.67em;
 }
 
+.header__bg {
+  max-width: 750px;
+  margin: 0 auto;
+  background-image: url(images/header-bg.png);
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
 /*---------------------------------------------------------
  * Media
 ---------------------------------------------------------*/
@@ -626,19 +635,47 @@ img {
   color: #fff;
 }
 
+.bg__grey {
+  color: #fff;
+  padding: 0.5em 0;
+  background-color: #231f20;
+  -webkit-transition: color 0.4s ease, background-color 0.4s ease;
+          transition: color 0.4s ease, background-color 0.4s ease;
+}
+.bg__grey:hover {
+  -webkit-transition: color 0.4s ease, background-color 0.4s ease;
+          transition: color 0.4s ease, background-color 0.4s ease;
+  background-color: #000;
+  color: #fff;
+}
+.bg__grey.no-link:hover {
+  background-color: #231f20;
+  color: #fff;
+}
+
+.wrapper__home {
+  background-color: #fff;
+}
+
+.wrapper__client {
+  background-color: #7dc6b4;
+}
+
+.wrapper__intern {
+  background-color: #f5aa40;
+}
+
 /*---------------------------------------------------------
  * Entries
 ---------------------------------------------------------*/
 .entry__title {
   line-height: 0.9em;
   color: #000;
-  margin: 42px 0 0;
   font-size: 39px;
   font-size: 2.4375em;
 }
 @media screen and (min-width: 480px) {
   .entry__title {
-    margin: 130px 0 0;
     font-size: 60px;
     font-size: 3.75em;
   }
@@ -660,6 +697,10 @@ img {
     font-size: 115px;
     font-size: 7.1875em;
   }
+}
+.entry__title img {
+  display: block;
+  margin: 0 auto;
 }
 
 .entry__title-sub {
@@ -686,7 +727,7 @@ img {
 }
 @media screen and (min-width: 480px) {
   .entry__body {
-    margin: 85px auto 95px;
+    margin: 0 auto 95px;
   }
 }
 .entry__body p {
