@@ -30,11 +30,11 @@ $force_b_corp_link    = fcwp_get_field( 'force_b_corp_link', true );
       <div class="footer__address text__white" itemscope itemtype="http://schema.org/PostalAddress">
         <p>
            <a href="https://www.google.com/maps/place/243+N+5th+St+%23430,+Columbus,+OH+43215" target="_blank"/>
-            <span itemprop="streetAddress"><?php echo $force_address; ?><br /><?php echo $force_suite_apt; ?></span>
+            <span itemprop="streetAddress"><?php echo $force_address; ?><br /><?php echo $force_suite_apt; ?></span><br />
             <span itemprop="addressLocality"><?php echo $force_city; ?></span>
-            <span itemprop="addressRegion"><?php echo $force_state; ?></span><br />
+            <span itemprop="addressRegion"><?php echo $force_state; ?></span>
             <span itemprop="postalCode"><?php echo $force_zip_code; ?></span>
-          </a>
+          </a><br />
           <a href="tel:<?php echo $force_phone_number ;?>" aria-lable="Phone Number" itemprop="telephone">
             <?php echo $force_phone_number ;?>
           </a>
