@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/force
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Framework
-Version: 1.0.3
+Version: 1.0.4
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -845,6 +845,7 @@ img {
 
 .contact__contact .gform_button {
   color: #333132;
+  border-radius: 0px;
 }
 .contact__contact .gform_button:hover {
   color: #fff;
