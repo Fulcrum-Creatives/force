@@ -36,6 +36,9 @@
   overflow: hidden;
   width: 228px;
   margin: 1em auto;
+  @include media-query(660px) {
+    margin: 1em 0;
+  }
 }
 .font-icons {
   float: left; 
