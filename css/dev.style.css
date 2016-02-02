@@ -4,7 +4,7 @@ Theme URI: https://github.com/Fulcrum-Creatives/force
 Author: Fulcrum Creatives
 Author URI: http://fulcrumcreatives.com/
 Description: Custom WordPress Framework
-Version: 1.0.6
+Version: 1.0.7
 Tags: 
 Text Domain: fcwp
 License: GNU General Public License v2 or later
@@ -637,7 +637,7 @@ img {
 
 .bg__grey {
   color: #fff;
-  padding: 0.5em 0;
+  padding: 1em 0;
   background-color: #231f20;
   -webkit-transition: color 0.4s ease, background-color 0.4s ease;
           transition: color 0.4s ease, background-color 0.4s ease;
@@ -1034,7 +1034,7 @@ input:checked ~ .cust-checkbox {
   background-color: #fff;
   font-size: 21px;
   font-size: 1.3125em;
-  padding: 0.5em 0;
+  padding: 1em 0;
   -webkit-transition: color 0.4s ease, background-color 0.4s ease;
           transition: color 0.4s ease, background-color 0.4s ease;
   font-family: "Avenir Next LT W01 Bold";
