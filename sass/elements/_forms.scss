@@ -197,7 +197,7 @@ input:checked~.cust-checkbox{
   outline: 0;
   background-color: #fff;
   @include font-size(21);
-  padding: 0.5em 0;
+  padding: 1em 0;
   transition: color 0.4s ease, background-color 0.4s ease;
   font-family: "Avenir Next LT W01 Bold";
   -webkit-appearance: none;
